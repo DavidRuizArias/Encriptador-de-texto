@@ -1,6 +1,6 @@
 # Challenge Encriptador de texto con JavaScript #
 
-Encriptador de texto desarrollado en HTML, CSS y JavaScript, challenge del curso "_Principiante en programación_" para Alura LATAM y Oracle Next Education.
+Encriptador de texto desarrollado en HTML, CSS y JavaScript; challenge del curso "_Principiante en programación_" para Alura LATAM y Oracle Next Education.
 
 Link del proyecto: https://davidruizarias.github.io/Encriptador-de-texto/
 
@@ -18,7 +18,7 @@ Las "llaves" de encriptación que utilizaremos son las siguientes:
 
 - Funciona solo con letras minúsculas.
 
-- No deben ser utilizados letras con acentos ni caracteres especiales.
+- No deben ser utilizadas letras con acentos ni caracteres especiales.
 
 - Es posible convertir una palabra para la versión encriptada y también devolver una palabra encriptada para su versión original.
 
@@ -32,4 +32,5 @@ Las "llaves" de encriptación que utilizaremos son las siguientes:
 
 la página contiene un botón que copia el texto encriptado/desencriptado para la sección de transferencia, o sea que tiene la misma funcionalidad del ```ctrl+C``` o de la opción ```"copiar"``` del menú de las aplicaciones.
 
-Este proyecto fue realizado por David Ruiz Arias para el Challenge de ALURA LATAM y Oracle Next Education.
+
+**Este proyecto fue realizado por David Ruiz Arias para el Challenge de ALURA LATAM y Oracle Next Education.**
