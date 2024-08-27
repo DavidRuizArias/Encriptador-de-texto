@@ -1,16 +1,31 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap');
 
+/* Colores iniciales del proyecto:
+    --color-primario:#F3F5FC;
+    --color-secundario:#0A3871;
+    --color-terciario:#D8DFE8;
+    --color-cuaternario:#white;
+*/
+:root{
+    --color-primario:#021526;
+    --color-secundario:#03346E;
+    --color-terciario:#6EACDA;
+    --color-cuaternario:#E2E2B6;
+
+    --fuente-inter:'Inter';
+}
+
 html{
     margin: 4vh 5vw 0vh 5vw;
     padding: 0;
-    font-family: 'Inter';
+    font-family: var(--fuente-inter);
     font-style: normal;
-    color: #0A3871;
+    color: var(--color-secundario);
     line-height: 150%;
 }
 
 body{
-    background: #F3F5FC;
+    background: var(--color-primario);
 }
 
 #main-container{
@@ -62,23 +77,23 @@ body{
         border: none;
         outline: none !important;
         resize: none;
-        background: #F3F5FC;
-        color: #0A3871;
-        font-family: 'Inter';
+        background: var(--color-primario);
+        color: var(--color-secundario);
+        font-family: var(--fuente-inter);
         font-style: normal;
-        font-size: 32px;
+        font-size: 2rem;
     }
 
     ::placeholder{
         font-weight: 400;
-        font-size: 32px;
+        font-size: 2rem;
         line-height: 150%;
-        color: #0A3871;
+        color: var(--color-secundario);
     }
 
     #note{
         display: flex;
-        font-size: 12px;
+        font-size: 0.75rem;
         opacity: 0.8;
         color: #495057;
     }
@@ -110,7 +125,7 @@ body{
             width: 80%;
             height: 100%;
             border-radius: 24px;
-            background: #0A3871;
+            background: var(--color-secundario);
         }
 
         #encriptar:hover{
@@ -120,7 +135,7 @@ body{
 
         #encriptar span{
             font-weight: 400;
-            font-size: 16px;
+            font-size: 1rem;
             line-height: 19px;
             text-align: center;
             color: #FFFFFF;
@@ -131,7 +146,7 @@ body{
             width: 80%;
             height: 100%;
             border-radius: 24px;
-            background: #D8DFE8;
+            background: var(--color-terciario);
             box-sizing: border-box;
             border-radius: 24px;
         }
@@ -143,10 +158,10 @@ body{
 
         #desencriptar span{
             font-weight: 400;
-            font-size: 16px;
+            font-size: 1rem;
             line-height: 19px;
             text-align: center;           
-            color: #0A3871;
+            color: var(--color-secundario);
             margin: auto;
         }
 
@@ -155,7 +170,7 @@ body{
     flex-flow: column nowrap;
     align-items: center;
     justify-content: center;
-    background: white;
+    background: var(--color-cuaternario);
     box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
     border-radius: 32px;
     width: 43%;
@@ -164,7 +179,7 @@ body{
     #result{
         width: 80%;
         height: 95%;
-        font-size: 24px;
+        font-size: 1.5rem;
         padding: 25px;
         color: #495057;
         display: none;
@@ -181,7 +196,7 @@ body{
     #text-default1{ 
         margin-top: 19px;
         font-weight: 700;
-        font-size: 21px;
+        font-size: 1.3rem;
         text-align: center;
         color: #343A40;
         align-self: center;
@@ -194,7 +209,7 @@ body{
 
 
     #text-default2{
-        font-size: 12px;
+        font-size: 0.75rem;
         line-height: 150%;
         text-align: center;
         color: #495057;
@@ -215,7 +230,7 @@ body{
         width: 93%;
         height: 69%;
         margin-top: 10px;
-        background: white;
+        background: var(--color-cuaternario);
         box-sizing: border-box;
         border-radius: 24px;
     }
@@ -226,10 +241,10 @@ body{
     }
 
     #copiar span{
-        font-size: 16px;
+        font-size: 1rem;
         line-height: 19px;
         text-align: center;           
-        color: #0A3871;
+        color: var(--color-secundario);
         margin: auto;
     }
 
@@ -260,8 +275,8 @@ footer li{
 
 footer a{
     text-decoration: none;
-    color: #0A3871;
-    font-size: 20px;
+    color: var(--color-secundario);
+    font-size: 1.25rem;
 }
 
 footer a:hover{
