@@ -90,6 +90,8 @@ boton_encriptar.onclick = comprobar_texto_encriptado;
 boton_desencriptar.onclick = comprobar_texto_desencriptado;
 boton_copiar.onclick = copiar_al_portapapeles;
 
+
+
 /*
 encriptar 1
     for(let i = 0; i < texto.length; i++){
